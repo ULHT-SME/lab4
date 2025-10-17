@@ -662,15 +662,11 @@ import 'post_detail_screen.dart';
 class Comment {
   final int postId;
   final int id;
-  final String name;
-  final String email;
   final String body;
 
   Comment({
     required this.postId,
     required this.id,
-    required this.name,
-    required this.email,
     required this.body,
   });
 
@@ -731,22 +727,6 @@ Submit the following:
 
 ---
 
-## Reflection Questions
-
-After completing this lab, reflect on and discuss:
-
-1. **Asynchronous Programming:** Explain the difference between synchronous and asynchronous operations. Why is asynchronous programming essential for mobile app development, particularly for networking?
-
-2. **Error Handling:** What types of errors can occur when making network requests? How did you handle these in your app? What improvements could you make to error handling?
-
-3. **FutureBuilder vs State Management:** Compare using FutureBuilder versus managing network requests with Provider or setState. What are the advantages and disadvantages of each approach?
-
-4. **User Experience:** How do loading states and error messages affect user experience? What strategies did you implement to make waiting for data less frustrating for users?
-
-5. **API Design:** Based on your experience with JSONPlaceholder, what makes a good REST API? Consider aspects like data structure, endpoint naming, and response formats.
-
----
-
 ## Tips and Resources
 
 ### Common Issues and Solutions
@@ -787,7 +767,7 @@ After completing this lab, reflect on and discuss:
 
 ### Some Additional Learning for the most curious minds 😄
 
-- Try other JSONPlaceholder endpoints (users, albums, photos)
+- Try other DummyJSON endpoints (users, albums, photos)
 - Implement POST, PUT, DELETE requests
 - Add pull-to-refresh functionality using RefreshIndicator
 - Implement search functionality
