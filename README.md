@@ -66,7 +66,7 @@ In Android Studio press the green icon ▶️ with the chosen device (Emulator o
 
 ## Lab Tasks
 
-### Task 1: Understanding Asynchronous Operations (10 minutes)
+### Task 1: Understanding Asynchronous Operations
 
 **Objective:** Learn the basics of async/await and Future in Dart.
 
@@ -174,7 +174,7 @@ class AsyncDemoScreen extends StatelessWidget {
 
 **Understanding the API:**
 
-We'll use JSONPlaceholder, a free fake REST API: `https://jsonplaceholder.typicode.com/posts`
+We'll use DummyJSON, a free fake REST API: `https://dummyjson.com/posts`
 
 Sample JSON response for a single post:
 ```json
@@ -231,7 +231,7 @@ class Post {
 - Make sure field names match the API response exactly
 - Use `as int` or `as String` if you need to cast types
 
-### Task 3: Create an API Service (15 minutes)
+### Task 3: Create an API Service 
 
 **Objective:** Build a service class to handle network requests.
 
@@ -245,7 +245,7 @@ import 'package:http/http.dart' as http;
 import '../models/post.dart';
 
 class ApiService {
-  static const String baseUrl = 'https://jsonplaceholder.typicode.com';
+  static const String baseUrl = 'https://dummyjson.com';
 
   // Fetch all posts
   Future<List<Post>> fetchPosts() async {
@@ -498,7 +498,7 @@ setState(() {
 - Try the refresh button
 - Test error handling by turning off internet
 
-### Task 5: Create a Detail Screen (20 minutes)
+### Task 5: Create a Detail Screen
 
 **Objective:** Navigate to a detail screen to show full post content.
 
@@ -648,7 +648,7 @@ import 'post_detail_screen.dart';
 
 **Objective:** Extend the app to fetch and display comments for each post.
 
-**API Endpoint:** `https://jsonplaceholder.typicode.com/posts/{id}/comments`
+**API Endpoint:** `https://dummyjson.com/posts/{id}/comments`
 
 **Your Challenge:**
 
