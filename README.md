@@ -709,21 +709,7 @@ FutureBuilder<List<Comment>>(
 
 ## Deliverables
 
-Submit the following:
-
-1. **Complete Flutter project folder** (zip the entire project directory)
-2. **Screenshots** showing:
-   - Posts list loading state
-   - Posts list with data loaded
-   - Error state (if you can capture it)
-   - Post detail screen
-   - Comments section (if completed optional task)
-3. **Screen recording** (1-2 minutes) demonstrating:
-   - App launching and loading posts
-   - Scrolling through the list
-   - Tapping a post to view details
-   - Using the refresh button
-4. **Brief write-up** (300-400 words) answering the reflection questions
+You are required to .zip file this project and deliver it in Moodle before the next class. The .zip should contain all the content of inside project folder with the exception of the .dart_tool and build folders (these will make the .zip file extremely large and they are not necessary for evaluation).
 
 ---
 
